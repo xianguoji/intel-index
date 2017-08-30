@@ -1,0 +1,49 @@
+@import "bootstrap.less";
+  /*div{*/
+  /*border: 1px solid blue; }*/
+  /*.footer div{border: 1px solid blue;}*/
+//body{
+//  margin-top: @navbar-height;
+//}
+.logo {
+  display: inline-block;
+  width: 65px;
+  height: 44px;
+  background: url("../img/hdr-spr.png") 0 -513px no-repeat;
+  margin-top: -12px;
+}
+
+@media screen and (min-width: @screen-md-min) {
+  .main > .container > .row {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: @screen-sm-max)and (min-width: @screen-sm-min) {
+  .main > .container > .row .row {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: @screen-xs-max) {
+  .main > .container .row .row {
+    margin-bottom: 10px;
+  }
+}
+
+.login-menu {
+  width: 400px;
+  height: 300px;
+  /*border: 1px solid blue;*/
+}
+.main{
+  background: @blue-darker;
+  color:@text-color-light;
+  a{
+    color:@text-color-light;
+    &:hover{color:@blue-lighter;}
+  }
+}
+.bgc{
+  background: #fff;
+}
